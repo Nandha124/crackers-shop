@@ -1,8 +1,11 @@
 import React from "react";
-import Slider from "react-slick";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { FaLink } from "react-icons/fa";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/autoplay";
+import { Pagination, Autoplay } from "swiper/modules";
+
 import img1 from "../assets/Hand.jpg";
 import img2 from "../assets/road.png";
 import img3 from "../assets/ahop.jpg";
@@ -21,7 +24,7 @@ const blogs = [
     img: img3,
     title: "Online Pattasu Kadai",
     link: "home",
-    desc: "Online pattasu kadai offers a wide range of fireworks at competitive prices. Buy online from your home hassle-free.",
+    desc: "Online pattasu kadai offers a wide range  at competitive prices. Buy online from your home hassle-free.",
   },
   {
     id: 3,
@@ -33,34 +36,6 @@ const blogs = [
 ];
 
 const BlogSlider = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 800,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    arrows: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        }
-      },
-      {
-        breakpoint: 640,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: true
-        }
-      }
-    ]
-  };
-
   return (
     <div className="container mx-auto py-8 lg:px-6 px-4">
       <h2 className="text-2xl sm:text-3xl font-bold text-center text-black mb-2">
@@ -70,40 +45,44 @@ const BlogSlider = () => {
         Our Latest Blogs
       </p>
 
-      <div className="slider-container">
-        <Slider {...settings}>
-          {blogs.map((blog) => (
-            <div key={blog.id} className="px-2 lg:px-3 focus:outline-none">
-              <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden group mx-auto max-w-xs sm:max-w-none">
-                {/* Image */}
-                <div className="relative">
-                  <img
-                    src={blog.img}
-                    alt={blog.title}
-                    className="w-full h-40 sm:h-56 lg:h-64 object-cover"
-                  />
-                  <a
-                    href={blog.link}
-                    className="absolute top-2 right-2 sm:top-3 sm:right-3 bg-red-600 text-white p-1.5 sm:p-2 rounded-full opacity-0 group-hover:opacity-100 transition"
-                  >
-                    <FaLink size={18} />
-                  </a>
-                </div>
+      <Swiper
+        modules={[Pagination, Autoplay]}
+        spaceBetween={16}
+        pagination={{ clickable: true }}
+        autoplay={{ delay: 4000 }}
+        breakpoints={{
+          640: { slidesPerView: 1 },
+          1024: { slidesPerView: 2 },
+          1280: { slidesPerView: 3 },
+        }}
+      >
+        {blogs.map((blog) => (
+         <SwiperSlide key={blog.id}>
+  <div className="w-full sm:w-[100%] lg:w-[100%] bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden group mx-auto">
+    <div className="relative">
+      <img
+        src={blog.img}
+        alt={blog.title}
+        className="w-full h-56 object-cover"
+      />
+      <a
+        href={blog.link}
+        className="absolute top-2 right-2 sm:top-3 sm:right-3 bg-red-600 text-white p-1.5 sm:p-2 rounded-full opacity-0 group-hover:opacity-100 transition"
+      >
+        <FaLink size={18} />
+      </a>
+    </div>
+    <div className="p-4">
+      <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gray-800 hover:text-red-600">
+        <a href={blog.link}>{blog.title}</a>
+      </h3>
+      <p className="text-gray-600 text-sm leading-relaxed">{blog.desc}</p>
+    </div>
+  </div>
+</SwiperSlide>
 
-                {/* Content */}
-                <div className="p-3 sm:p-4">
-                  <h3 className="text-lg sm:text-xl font-semibold mb-1 sm:mb-2 text-gray-800 hover:text-red-600">
-                    <a href={blog.link}>{blog.title}</a>
-                  </h3>
-                  <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                    {blog.desc}
-                  </p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </Slider>
-      </div>
+        ))}
+      </Swiper>
     </div>
   );
 };

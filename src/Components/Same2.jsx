@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import img1 from "../assets/banner.gif"
 const SamePage = () => {
   return (
-    <div className="container mx-auto  ">
+    <>
       {/* Breadcrumbs */}
       
 
@@ -12,7 +12,7 @@ const SamePage = () => {
         <img
           src={img1}
           alt="Sample"
-          className=" w-full  lg:h-[750px] bg-black bg-opacity-40"
+          className=" w-full lg:h-full bg-black bg-opacity-40"
         />
             <div className="absolute top-28 lg:top-[200px]  left-25 md:left-[100px] lg:left-[200px] mt-6">
         <h1 className="md:text-3xl text-xl font-bold text-white mb-3">
@@ -38,7 +38,7 @@ const SamePage = () => {
 
       {/* Content */}
   
-    </div>
+    </>
   );
 };
 

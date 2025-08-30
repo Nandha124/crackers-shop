@@ -18,12 +18,14 @@ export default function CrackersTable() {
   );
 
   const [items, setItems] = useState(initialProducts);
-  const [selectedImage, setSelectedImage] = useState(null); // For image modal
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [activeCategory, setActiveCategory] = useState(null);
 
   const handleQtyChange = (id, qty) => {
+    const newQty = qty === "" ? 0 : Math.max(0, Number(qty));
     setItems(prev =>
       prev.map(item =>
-        item.id === id ? { ...item, qty: Math.max(0, Number(qty)) } : item
+        item.id === id ? { ...item, qty: newQty } : item
       )
     );
   };
@@ -63,7 +65,7 @@ export default function CrackersTable() {
     message += `\n🛒 *Total Items:* ${productCount}`;
     message += `\n💰 *Grand Total:* ₹${grandTotal.toFixed(2)}`;
 
-    const phoneNumber = "919677804273"; // your WhatsApp number with country code
+    const phoneNumber = "919677804273";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
@@ -71,18 +73,41 @@ export default function CrackersTable() {
     window.open(url, "_blank");
   };
 
+  // Toggle category expansion on mobile
+  const toggleCategory = (category) => {
+    if (activeCategory === category) {
+      setActiveCategory(null);
+    } else {
+      setActiveCategory(category);
+    }
+  };
+
   return (
     <div className="min-w-full relative">
       <SamePage />
 
+      {/* Mobile category selector */}
+      <div className="lg:hidden mb-4">
+        <select 
+          className="w-full p-3 border rounded-lg bg-orange-100 font-semibold"
+          onChange={(e) => setActiveCategory(e.target.value)}
+          value={activeCategory || ""}
+        >
+          <option value="">Select a category</option>
+          {Object.keys(itemsByCategory).map(category => (
+            <option key={category} value={category}>{category}</option>
+          ))}
+        </select>
+      </div>
+
       {/* Scrollable Table */}
-      <div className="  overflow-x-auto overflow-y-auto table-fixed max-h-full border rounded">
+      <div className="overflow-x-auto overflow-y-auto border rounded-lg">
         <table className="w-full table-auto border-collapse text-center text-sm sm:text-base">
-          <thead className="bg-orange-400 text-white sticky top-0 z-10">
+          <thead className="bg-orange-400 text-white sticky top-0 z-10 hidden lg:table-header-group">
             <tr>
               <th className="p-2 lg:p-3 border w-20 lg:w-28">Image</th>
               <th className="p-2 lg:p-3 border">Product Name</th>
-              <th className="p-2 lg:p-3 border w-24 lg:w-32">Actual Price</th>
+              <th className="p-2 lg:p-3 border w-24 lg:w-32 hidden lg:table-cell">Actual Price</th>
               <th className="p-2 lg:p-3 border w-24 lg:w-32">Our Price</th>
               <th className="p-2 lg:p-3 border w-20 lg:w-28">Qty</th>
               <th className="p-2 lg:p-3 border w-24 lg:w-32">Total</th>
@@ -92,41 +117,61 @@ export default function CrackersTable() {
           <tbody>
             {Object.entries(itemsByCategory).map(([category, categoryItems]) => (
               <React.Fragment key={category}>
-                <tr>
+                {/* Category header - always visible on desktop, conditionally on mobile */}
+                <tr className={activeCategory && activeCategory !== category ? "hidden" : ""}>
                   <td
                     colSpan="6"
-                    className="text-lg sm:text-xl font-semibold bg-yellow-300 p-2 sm:p-3 text-center sticky top-[40px] z-0"
+                    className="text-lg sm:text-xl font-semibold bg-yellow-300 p-2 sm:p-3 text-center sticky top-0 z-0 cursor-pointer lg:cursor-auto"
+                    onClick={() => toggleCategory(category)}
                   >
-                    {category}
+                    {category} {window.innerWidth < 1024 && (activeCategory === category ? "▲" : "▼")}
                   </td>
                 </tr>
 
                 {categoryItems.map(item => (
-                  <tr key={item.id} className="border-b even:bg-gray-50">
+                  <tr 
+                    key={item.id} 
+                    className={`border-b even:bg-gray-50 ${activeCategory && activeCategory !== category ? "hidden" : ""}`}
+                  >
+                    {/* Image */}
                     <td className="p-2 lg:p-3 border">
                       <img
                         src={item.image}
                         alt={item.name}
                         className="w-10 h-10 lg:w-12 lg:h-12 object-contain mx-auto cursor-pointer hover:scale-110 transition"
-                        onClick={() => setSelectedImage(item.image)} // click to open modal
+                        onClick={() => setSelectedImage(item.image)}
                       />
                     </td>
-                    <td className="p-2 lg:p-3 border text-left">{item.name}</td>
-                    <td className="p-2 lg:p-3 border line-through text-red-500">
+                    
+                    {/* Product Name - with better mobile styling */}
+                    <td className="p-2 lg:p-3 border text-left font-medium text-gray-800">
+                      <div className="block lg:table-cell">
+                        {item.name}
+                      </div>
+                    </td>
+                    
+                    {/* Actual Price */}
+                    <td className="p-2 lg:p-3 border line-through text-red-500 hidden lg:table-cell">
                       ₹{Number(item.actualPrice || 0).toFixed(2)}
                     </td>
+                    
+                    {/* Our Price */}
                     <td className="p-2 lg:p-3 border font-semibold text-green-700">
                       ₹{Number(item.amount).toFixed(2)}
                     </td>
+                    
+                    {/* Quantity Input */}
                     <td className="p-2 sm:p-3 border">
                       <input
                         type="number"
                         min="0"
-                        value={item.qty}
+                        value={item.qty === 0 ? "" : item.qty}
                         onChange={e => handleQtyChange(item.id, e.target.value)}
-                        className="w-16 lg:w-20 border rounded text-center px-1 sm:px-2 py-1"
+                        className="w-16 lg:w-20 border rounded text-center px-1 sm:px-2 py-1 text-sm lg:text-base"
                       />
                     </td>
+                    
+                    {/* Total */}
                     <td className="p-2 lg:p-3 border font-bold text-green-600">
                       ₹{(item.qty * item.amount).toFixed(2)}
                     </td>
@@ -138,14 +183,75 @@ export default function CrackersTable() {
         </table>
       </div>
 
+      {/* Mobile product cards for better mobile experience */}
+      <div className="lg:hidden mt-4">
+        {Object.entries(itemsByCategory).map(([category, categoryItems]) => (
+          <div 
+            key={category} 
+            className={`mb-4 ${activeCategory && activeCategory !== category ? "hidden" : ""}`}
+          >
+            <h3 
+              className="text-lg font-semibold bg-yellow-300 p-3 rounded-t-lg flex justify-between items-center"
+              onClick={() => toggleCategory(category)}
+            >
+              {category} <span>{activeCategory === category ? "▲" : "▼"}</span>
+            </h3>
+            
+            <div className={`${activeCategory === category ? "block" : "hidden"}`}>
+              {categoryItems.map(item => (
+                <div key={item.id} className="border-b p-3 bg-white flex flex-col">
+                  <div className="flex justify-between items-start mb-2">
+                    <div className="flex items-center">
+                      <img
+                        src={item.image}
+                        alt={item.name}
+                        className="w-12 h-12 object-contain mr-2 cursor-pointer"
+                        onClick={() => setSelectedImage(item.image)}
+                      />
+                      <div>
+                        <h4 className="font-medium text-gray-800">{item.name}</h4>
+                        <div className="flex items-center mt-1">
+                          <span className="text-green-700 font-semibold mr-2">
+                            ₹{Number(item.amount).toFixed(2)}
+                          </span>
+                          <span className="text-red-500 line-through text-sm">
+                            ₹{Number(item.actualPrice || 0).toFixed(2)}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="text-green-600 font-bold">
+                      ₹{(item.qty * item.amount).toFixed(2)}
+                    </div>
+                  </div>
+                  
+                  <div className="flex justify-between items-center mt-2">
+                    <span className="text-sm text-gray-600">Quantity:</span>
+                    <input
+                      type="number"
+                      min="0"
+                      value={item.qty === 0 ? "" : item.qty}
+                      onChange={e => handleQtyChange(item.id, e.target.value)}
+                      className="w-16 border rounded text-center px-1 py-1 text-sm"
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
       {/* Fixed Bottom Grand Total Bar */}
-      <div className="fixed bottom-0 left-0 w-full bg-white shadow-lg border-t p-3 lg:p-4 flex flex-col lg:flex-row items-center justify-around z-20">
-        <div className="text-lg lg:text-xl font-bold text-gray-800">
+      <div className="fixed bottom-0 left-0 w-full bg-white shadow-lg border-t p-3 lg:p-4 flex flex-col lg:flex-row items-center
+       justify-around z-20 gap:20">
+        <div className="text-lg lg:text-xl font-bold text-gray-800 mb-2 lg:mb-0">
           🛒 {productCount} items | 💰 ₹{grandTotal.toFixed(2)}
         </div>
         <button
           onClick={handleOrderNow}
-          className="mt-2 lg:mt-0 bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-3 rounded-full shadow-lg transition"
+          className="bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-3 rounded-full shadow-lg transition w-full 
+          lg:w-auto text-center md:text-3xl text-lg"
         >
           📦 Order Now via WhatsApp
         </button>
@@ -153,18 +259,21 @@ export default function CrackersTable() {
 
       {/* Image Modal */}
       {selectedImage && (
-        <div className="fixed inset-0 bg-black/50 bg-opacity-80 flex items-center justify-center z-50">
-          <div className="relative">
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 p-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <div className="relative max-w-full max-h-full">
             <button
               onClick={() => setSelectedImage(null)}
-              className="absolute top-2 right-2 bg-red-500 text-white px-3 py-1 rounded-full text-sm hover:bg-red-600"
+              className="absolute -top-10 right-0 bg-red-500 text-white px-3 py-1 rounded-full text-sm hover:bg-red-600"
             >
               ✖ Close
             </button>
             <img
               src={selectedImage}
               alt="Large view"
-              className="max-h-[90vh] max-w-[90vw] rounded-lg shadow-lg"
+              className="max-h-[80vh] max-w-full rounded-lg shadow-lg mx-auto"
             />
           </div>
         </div>

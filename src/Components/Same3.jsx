@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import img1 from "../assets/banner.gif"
 const SamePage = () => {
   return (
-    <div className="container mx-auto  ">
+    <>
       {/* Breadcrumbs */}
       
 
@@ -38,7 +38,7 @@ const SamePage = () => {
 
       {/* Content */}
   
-    </div>
+    </>
   );
 };
 

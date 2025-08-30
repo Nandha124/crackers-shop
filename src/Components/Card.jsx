@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { FaLink } from "react-icons/fa";
-import img1 from "../assets/hand.jpg";
+import img1 from "../assets/Hand.jpg";
 import img2 from "../assets/road.png";
 import img3 from "../assets/ahop.jpg";
 

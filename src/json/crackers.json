@@ -1,0 +1,1211 @@
+[
+  {
+    "category": "ONE SOUND CRACKERS (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://bijili.s3.ap-south-1.amazonaws.com/product/quick-order/bij_023q.jpg",
+        "name": "2 3/4'' Bird",
+        "actualPrice": 70.00,
+        "amount": 7.00
+      },
+      {
+        "id": 2,
+        "image": "http://notoutcrackers.com/ProductImages/062eb889-16d8-4192-91b9-dfd27e7438e1.jpg",
+        "name": "3 1/2'' Lakshmi",
+        "actualPrice": 100,
+        "amount": 10.00
+      },
+      {
+        "id": 3,
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/9/451737973/IG/VR/BD/36275315/4-deluxe-lakshmi.jpeg",
+        "name": "4'' Lakshmi/Bulk",
+        "actualPrice": 170.00,
+        "amount": 17.00
+      },
+      {
+        "id": 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfGTVQ0W_b2CK6efMvdsyUI9P3Y_KD3JVsNg&s",
+        "name": "4 Deluxe Lakshmi",
+        "actualPrice": 300.00,
+        "amount": 30.00
+      },
+      {
+        "id": 5,
+        "image": "https://4.imimg.com/data4/YT/UW/MY-3188893/two-sound-crackers.jpg",
+        "name": "4 Two Sound Crackers",
+        "actualPrice": 300.00,
+        "amount": 30.00
+      },
+      {
+        "id": 6,
+        "image": "https://img.cdnx.in/260079/1694501070103_SKU-0152_0.jpg?width=600&format=webp",
+        "name": "4 Gold Lakshmi Crackers",
+        "actualPrice": 250,
+        "amount": 25.00
+      },
+      {
+        "id": 7,
+        "image": "https://bijili.s3.ap-south-1.amazonaws.com/product/bij_241a-1683192248.jpg",
+        "name": "5 Dlx Crackers",
+        "actualPrice": 450.00,
+        "amount": 45.00
+      },
+      {
+        "id": 8,
+        "image": "https://images.archanfireworks.com/uploads/all/5-jallikatu-1-bundle-10-pkt-online-crackers-buy.webp",
+        "name": "6 Dlx Crackers",
+        "actualPrice": 700.00,
+        "amount": 70.00
+      }
+    ]
+  },
+  {
+    "category": "Machine Gun Bijili (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://vividcrackers.com/images/thumbs/0000113_machine-gun-3-pc_550.jpeg",
+        "name": "Machine Gun Bijili 28",
+        "actualPrice": 145.00,
+        "amount": 15.00
+      },
+      {
+        "id": 2,
+        "image": "",
+        "name": "Big Machine Gun bijili 28",
+        "actualPrice": 256.00,
+        "amount": 26.00
+      },
+      {
+        "id": 3,
+        "image": "",
+        "name": "Big Machine Gun bijili 56",
+        "actualPrice": 500.00,
+        "amount": 50.00
+      },
+      {
+        "id": 4,
+        "image": "http://notoutcrackers.com/ProductImages/def.jpg",
+        "name": "Pada Dlx Machine Gun bijili 24",
+        "actualPrice": 200.00,
+        "amount": 20.00
+      },
+      {
+        "id": 5,
+        "image": "http://notoutcrackers.com/ProductImages/def.jpg",
+        "name": "Pada Dlx Machine Gun bijili 50",
+        "actualPrice": 1111.00,
+        "amount": 111.00
+      },
+      {
+        "id": 6,
+        "image": "http://notoutcrackers.com/ProductImages/def.jpg",
+        "name": "Pada Dlx Machine Gun bijili 100",
+        "actualPrice": 222.00,
+        "amount": 222.00
+      }
+    ]
+  },
+  {
+    "category": "Jack & Jill (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://www.standardcrackers.com/assets/uploads/product-featured-310.jpg",
+        "name": "Century Jack & Jill",
+        "actualPrice": 324.00,
+        "amount": 34.00
+      },
+      {
+        "id": 2,
+        "image":"https://www.standardcrackers.com/assets/uploads/product-featured-309.jpg",
+        "name": "Thousand Jack & Jill",
+        "actualPrice": 2778.00,
+        "amount": 278.00
+      },
+      {
+        "id": 3,
+        "image": "https://www.standardcrackers.com/assets/uploads/product-featured-308.jpg",
+        "name": "Two Thousand Jack & Jill",
+        "actualPrice": 5778.00,
+        "amount": 578.00
+      },
+      {
+        "id": 4,
+        "image": "https://www.standardcrackers.com/assets/uploads/product-featured-307.jpg",
+        "name": "Five Thousand Jack & Jill",
+        "actualPrice": 1445.00,
+        "amount": 1445.00
+      },
+      {
+        "id": 5,
+        "image": "https://www.standardcrackers.com/assets/uploads/product-featured-307.jpg",
+        "name": "Ten Thousand Jack & Jill",
+        "actualPrice": 28886.00,
+        "amount": 2889.00
+      }
+    ]
+  },
+  {
+    "category": "Bullets And Bombs (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://4.imimg.com/data4/KH/WI/MY-5161495/bullet-bomb.jpg",
+        "name": "Bullet Bomb 10pcs",
+        "actualPrice": 250.00,
+        "amount": 25.00
+      },
+      {
+        "id": 2,
+        "image": "https://cpimg.tistatic.com/01000815/b/4/Super-Bullet-Cracker.jpg",
+        "name": "Super Bullet Bomb 10pcs",
+        "actualPrice": 450.00,
+        "amount": 45.00
+      },
+      {
+        "id": 3,
+        "image": "https://bijili.s3.ap-south-1.amazonaws.com/product/quick-order/bij_047q.jpg",
+        "name": "Hydro Bomb Green 10pcs",
+        "actualPrice": 550.00,
+        "amount": 55.00
+      },
+      {
+        "id": 4,
+        "image": "https://5.imimg.com/data5/GLADMIN/Default/2022/7/MN/ID/RO/98321734/classic-bomb-green-10-pcs--500x500.jpg",
+        "name": "Grenny Bomb 10pcs",
+        "actualPrice": 850.00,
+        "amount": 85.00
+      },
+      {
+        "id": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjnDAm3Ah2gDyFZ2jRRu264S4uhdYAypLmFw&s",
+        "name": "Thunder Bolt Bomb 10pcs",
+        "actualPrice": 1000.00,
+        "amount": 100.00
+      },
+      {
+        "id": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyncShQ-JvI1av19J_7qt2beeRnAF2qDR5zA&s",
+        "name": "Agni Bomb 10pcs",
+        "actualPrice": 1600.00,
+        "amount": 160.00
+      },
+      {
+        "id": 7,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeE9uS14Gzi-XG2QCpfmiwm_0jzQmrr40hKA&s",
+        "name": "Digital Bomb 10pcs",
+        "actualPrice": 2000.00,
+        "amount": 200.00
+      }
+    ]
+  },
+  {
+    "category": "Flower Pots (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2K6fumEgJF_e51zzdAsdDB-Ya5P1aS64S2w&s",
+        "name": "Flower Pots Small 10pcs",
+        "actualPrice": 450.00,
+        "amount": 45.00
+      },
+      {
+        "id": 2,
+        "image": "https://cpimg.tistatic.com/04508105/b/4/Big-Flower-Pots-Cracker.jpg",
+        "name": "Flower Pots Big 10pcs",
+        "actualPrice": 550.00,
+        "amount": 55.00
+      },
+      {
+        "id": 3,
+        "image": "https://www.supremefireworks.in/img/products/flowerpots/flowerpot3.jpg",
+        "name": "Flower Pots Special 10pcs",
+        "actualPrice": 650.00,
+        "amount": 65.00
+      },
+      {
+        "id": 4,
+        "image": "https://bijili.s3.ap-south-1.amazonaws.com/product/bij_075.jpg",
+        "name": "Flower Pots Ashoka 10pcs",
+        "actualPrice": 900.00,
+        "amount": 90.00
+      },
+      {
+        "id": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtV_0u7XMZTZZmVbGCAabvIvOBaGOJQihKeA&s",
+        "name": "Colour Kotti 10pcs",
+        "actualPrice": 1600.00,
+        "amount": 160.00
+      },
+      {
+        "id": 6,
+        "image": "https://sivancrackers.s3.ap-south-1.amazonaws.com/products/images/560a3d9c466534c30ba83e0329833d6c.webp",
+        "name": "Flower Pots Super Deluxe 10pcs",
+        "actualPrice": 2900.00,
+        "amount": 290.00
+      },
+      {
+        "id": 7,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxweSoYnVF1GHqhlLt07ttrJnkNqmhuP_lng&s",
+        "name": "Ganga Jamna (5 Pc) 10pcs",
+        "actualPrice": 750.00,
+        "amount": 75.00
+      }
+    ]
+  },
+  {
+    "category": "Children Novelties (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://crackersonline.in/wp-content/uploads/2022/07/Crackersonline.in-23.png",
+        "name": "Assorted Cartoons 10pcs",
+        "actualPrice": 300.00,
+        "amount": 30.00
+      },
+      {
+        "id": 2,
+        "image": "https://bijili.s3.ap-south-1.amazonaws.com/product/bij_102a.jpg",
+        "name": "Kit Kat 10pcs",
+        "actualPrice": 300.00,
+        "amount": 30.00
+      },
+      {
+        "id": 3,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYeLkkv-pbQDPGbFXAGD9KEViGlTITIDF28A&s",
+        "name": "Roll caps 10pcs",
+        "actualPrice": 600.00,
+        "amount": 60.00
+      },
+      {
+        "id": 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG-MXLolRqNDYpDOy0lSyocbyH1zK9Kawvxg&s",
+        "name": "Butterfly 10pcs",
+        "actualPrice": 700.00,
+        "amount": 70.00
+      },
+      {
+        "id": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG9w7gbDGLUQzAmdNEeq-RTMadwguUb7_usg&s",
+        "name": "Snake Tablet 50pcs/bld",
+        "actualPrice": 250.00,
+        "amount": 25.00
+      },
+      {
+        "id": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS5dPEKGplA1ImAauICY_-bDpgzg_soQbq4Q&s",
+        "name": "Pop up 50/box",
+        "actualPrice": 100.00,
+        "amount": 10.00
+      },
+      {
+        "id": 7,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxxsmFeK1R_p26TJeRmxC0LsiBWzon_eRJOg&s",
+        "name": "Photo Flash 5pcs/box",
+        "actualPrice": 700.00,
+        "amount": 70.00
+      },
+      {
+        "id": 8,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePEGZSy0v2EOCWUFee2HAyP2Ub2rYokddyw&s",
+        "name": "Ring Cap 9Ring/Pkt",
+        "actualPrice": 100.00,
+        "amount": 10.00
+      }
+    ]
+  },
+  {
+    "category": "Ground Chakkar (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7h2z8mDEx50XAsNmJNMJHiEiJpE92d7C_w&s",
+        "name": "Ground Chakkar Big 10pcs",
+        "actualPrice": 333.00,
+        "amount": 33.00
+      },
+      {
+        "id": 2,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPJ-9T-YngsMsAGMJPK6ouf1iK7BxwxMHuKw&s",
+        "name": "Ground Chakkar Big 25pcs",
+        "actualPrice": 750.00,
+        "amount": 75.00
+      },
+      {
+        "id": 3,
+        "image": "http://notoutcrackers.com/ProductImages/def.jpg",
+        "name": "Ground Chakkar Special 10pcs",
+        "actualPrice": 650.00,
+        "amount": 65.00
+      },
+      {
+        "id": 4,
+        "image": "https://imgcdn.iar.net.in/d992d54ae97874fee83cbb29d41bcf80044a7a395512a9c73246fe9af44c990dfddf8fba12f8c072ddec1161af02121a138355a054b5cb9acce0f61ff442a697/fit/270/270/sm/1/plain/https://assetv2.iar.net.in/trial671.iar.net.in/19_8_2023/DjtWD1x/3.jpg",
+        "name": "Ground Chakkar Deluxe 10pcs",
+        "actualPrice": 1100.00,
+        "amount": 110.00
+      },
+      {
+        "id": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZvzQ6zy_YUrj6PVYxraog8rWpos5Fejm-IQ&s",
+        "name": "Spinner Spl 10pcs",
+        "actualPrice": 1800.00,
+        "amount": 180.00
+      },
+      {
+        "id": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThk2nCBknKdrTZtkBcY44zXENj5Z6DRBp1_Q&s",
+        "name": "Spinner Dlx 10pcs",
+        "actualPrice": 2220.00,
+        "amount": 222.00
+      }
+    ]
+  },
+  {
+    "category": "Wizzling Chakkar (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://www.fireworks2home.com/wp-content/uploads/2020/10/whistling-wheel-ayyan.jpg",
+        "name": "Wizzling Wheel 5pcs",
+        "actualPrice": 800.00,
+        "amount": 80.00
+      }
+    ]
+  },
+  {
+    "category": "Twinkling Star (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWtDx-0DAwwinGqc6_4vHo1Xu-jYYfwMaCIw&s",
+        "name": "1 1/2\" Twinkling Star 10pcs",
+        "actualPrice": 200.00,
+        "amount": 20.00
+      },
+      {
+        "id": 2,
+        "image": "https://www.crackersshope.com/wp-content/uploads/2017/08/120cm_Twinkle_Star_Crackersshope.com_.jpg",
+        "name": "4 Twinkling Star 10pcs",
+        "actualPrice": 600.00,
+        "amount": 60.00
+      }
+    ]
+  },
+  {
+    "category": "Pencil & Torches (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "http://notoutcrackers.com/ProductImages/abc.jpg",
+        "name": "Hi-tech Candle 3pcs",
+        "actualPrice": 750.00,
+        "amount": 75.00
+      },
+      {
+        "id": 2,
+        "image": "http://notoutcrackers.com/ProductImages/abc.jpg",
+        "name": "Beacon Candles 2pcs",
+        "actualPrice": 1600.00,
+        "amount": 160.00
+      },
+      {
+        "id": 3,
+        "image": "http://notoutcrackers.com/ProductImages/abc.jpg",
+        "name": "Mega Candles 3pcs",
+        "actualPrice": 2000.00,
+        "amount": 200.00
+      }
+    ]
+  },
+  {
+    "category": "Loose Crackers (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://bijili.s3.ap-south-1.amazonaws.com/product/bij_033a.jpg",
+        "name": "Red Bijili 100pcs",
+        "actualPrice": 280.00,
+        "amount": 28.00
+      },
+      {
+        "id": 2,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-LY_9-0WLkkNds3ld_OgJ0HFpq5IdghJnVw&s",
+        "name": "Stripped Bijili 100pcs",
+        "actualPrice": 333.00,
+        "amount": 33.00
+      }
+    ]
+  },
+  {
+    "category": "Fountain Shower (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3oDjs9_NJmf4qH1kQZelp4BosOZaKW0yswA&s",
+        "name": "Colour rain 5pcs",
+        "actualPrice": 900.00,
+        "amount": 90.00
+      },
+      {
+        "id": 2,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfvzCvty3BvbNXkCRvz9hAHl61kL29pew5VA&s",
+        "name": "Golden sparow / Silver Rain 5pcs",
+        "actualPrice": 1000.00,
+        "amount": 100.00
+      },
+      {
+        "id": 3,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3t18GVs_WQoIsSlzgKQBpA--4mbwyl4BbYqcBKKVct7eZLOaT7-9B4SzTeHVswosfXXw&usqp=CAU",
+        "name": "Yellow shower 5pcs",
+        "actualPrice": 900.00,
+        "amount": 90.00
+      },
+      {
+        "id": 4,
+        "image": "https://4.imimg.com/data4/UN/IJ/MY-5161495/golden-yellow-fountain-cracker-500x500.jpg",
+        "name": "Golden Spots 5pcs",
+        "actualPrice": 1800.00,
+        "amount": 180.00
+      },
+      {
+        "id": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdab7umPs6L1Thn1oDa4iC1zQUYNF8k8gfyg&s",
+        "name": "Rainbow shower 5pcs",
+        "actualPrice": 1800.00,
+        "amount": 180.00
+      },
+      {
+        "id": 6,
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/4/406813902/SK/WP/BD/23186397/grand-shower-colorful-cracker.jpeg",
+        "name": "Grand shower 5pcs",
+        "actualPrice": 2500.00,
+        "amount": 250.00
+      }
+    ]
+  },
+  {
+    "category": "Rockets (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwJ3TXiO7RRWCEuz0vpBuvBRfltaaqY3Lovw&s",
+        "name": "Rocket Bomb 10pcs",
+        "actualPrice": 800.00,
+        "amount": 80.00
+      },
+      {
+        "id": 2,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLHWqn-H7KpVZC5DNQDIRYeFG00CGiaCXAaA&s",
+        "name": "Lunic Rocket 10pcs",
+        "actualPrice": 1000.00,
+        "amount": 100.00
+      },
+      {
+        "id": 3,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_zOzGmd5jTcu3FcEdvt5HNRo9xhpvjz2l1A&s",
+        "name": "Whistling Rocket 10pcs",
+        "actualPrice": 1800.00,
+        "amount": 180.00
+      }
+    ]
+  },
+  {
+    "category": "Fancy Novelties (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://cdn.dotpe.in/longtail/store-items/7612196/y1VmmTC1.jpeg",
+        "name": "Tri colour 5pcs",
+        "actualPrice": 2400.00,
+        "amount": 240.00
+      },
+      {
+        "id": 2,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB6zr9rMw2jWE1WrVRlQUb82TxvF3z3WMYuA&s",
+        "name": "lotus wheel 5pcs",
+        "actualPrice": 1500.00,
+        "amount": 150.00
+      },
+      {
+        "id": 3,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYRvppk-LFq96juWkayXKrNXKw4tmm0SUjhw&s",
+        "name": "Siren 3pcs",
+        "actualPrice": 1867.00,
+        "amount": 187.00
+      },
+      {
+        "id": 4,
+        "image": "https://sakthicrackers.com/wp-content/uploads/2023/09/Helicopter.png",
+        "name": "Helicopter 5pcs",
+        "actualPrice": 1000.00,
+        "amount": 100.00
+      },
+      {
+        "id": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa_HsdOZFJQXC4cOyDm4ET9-g1dt_Waaa5YQ&s",
+        "name": "lollipop 5pcs",
+        "actualPrice": 2000.00,
+        "amount": 200.00
+      },
+      {
+        "id": 6,
+        "image": "https://www.crackersindia.com/wp-content/uploads/2024/08/COLOURFUL-SMOKE.jpeg",
+        "name": "Smoke 5pcs",
+        "actualPrice": 1800.00,
+        "amount": 180.00
+      },
+      {
+        "id": 7,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYToSue5RNueSNaeYVHZbbNvY9v5hHCCtJrg&s",
+        "name": "Bambara 10pcs",
+        "actualPrice": 1000.00,
+        "amount": 100.00
+      },
+      {
+        "id": 8,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHSWQSIaJKg3toS1d1WFXJJ0UzBDDZSUu7Fw&s",
+        "name": "7 Color Shot 5pcs",
+        "actualPrice": 1000.00,
+        "amount": 100.00
+      },
+      {
+        "id": 9,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9KG3GFuDreZf1r6oS87KuHRda1qlNM-guOw&s",
+        "name": "3 Sky Penta 5pcs",
+        "actualPrice": 1650.00,
+        "amount": 165.00
+      }
+    ]
+  },
+  {
+    "category": "New Arrivals (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://i.ytimg.com/vi/EqidEQnNt8c/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGFUgWihlMA8=&rs=AOn4CLDPSd26sDlTg6BVGOaf3h7eOQJLWQ",
+        "name": "90 Watts 1pcs",
+        "actualPrice": 2000.00,
+        "amount": 200.00
+      },
+      {
+        "id": 2,
+        "image": "https://5.imimg.com/data5/ANDROID/Default/2023/11/357789766/BY/MN/II/199877068/product-jpeg-500x500.jpeg",
+        "name": "Bat & Ball 1pcs",
+        "actualPrice": 2000.00,
+        "amount": 200.00
+      },
+      {
+        "id": 3,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58cfcHPUqLVzRs4oXgaHot4bb0H-S15-YMg&s",
+        "name": "Scotty Wheel 5pcs",
+        "actualPrice": 900.00,
+        "amount": 90.00
+      },
+      {
+        "id": 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMfawTTYfJfjqG6SMOHDoYeCQJZ9VzxfKCrg&s",
+        "name": "Shin chan 5pcs",
+        "actualPrice": 1600.00,
+        "amount": 160.00
+      },
+      {
+        "id": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnWGqGQuBGEnv3Y9h9xz8fvI3G5vK55tU2Wg&s",
+        "name": "900 cc 5pcs",
+        "actualPrice": 2000.00,
+        "amount": 200.00
+      },
+      {
+        "id": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3EX_Q7ENIcIAlPFVV-BVdt3UQ1M60n7JzFw&s",
+        "name": "Pop Corn 2pcs",
+        "actualPrice": 2000.00,
+        "amount": 200.00
+      },
+      {
+        "id": 7,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHNmaeoDcXWlzVdhH5Y3AYvCFVqqypWuVU9g&s",
+        "name": "Gun 5pcs",
+        "actualPrice": 1500.00,
+        "amount": 150.00
+      },
+      {
+        "id": 8,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6RBhF8IBQSI2tbkVzi-LDEOpVPLhn5QUE_g&s",
+        "name": "Emu Egg 2pcs",
+        "actualPrice": 2000.00,
+        "amount": 200.00
+      },
+      {
+        "id": 9,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKf-Q4b4-6135lN5o6TBmPQyUwcUPfJdAdw&s",
+        "name": "Wire Chakkar 10pcs",
+        "actualPrice": 2000.00,
+        "amount": 200.00
+      }
+    ]
+  },
+  {
+    "category": "New Arrivals (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdl7WwZNrXkAaIjhtLSEvJZJDFn8kUaMzlLA&s",
+        "name": " Fun butterfl 6pcs",
+        "actualPrice": 1500.00,
+        "amount": 150.00
+      },
+      {
+        "id": 2,
+        "image": "https://yanaicrackers.in/wp-content/uploads/2024/09/kulficone.jpg",
+        "name": " Kulfi kingdom 3pcs",
+        "actualPrice": 2600.00,
+        "amount": 260.00
+      },
+      {
+        "id": 3,
+        "image": "https://colorscrackers.in/wp-content/uploads/2025/08/Dolphin-show.jpeg",
+        "name": "Dolphin show 2pcs",
+        "actualPrice": 2000.00,
+        "amount": 200.00
+      },
+      {
+        "id": 4,
+        "image": "http://notoutcrackers.com/ProductImages/abc.jpg",
+        "name": " Looney tunes 1pcs",
+        "actualPrice": 1800.00,
+        "amount": 180.00
+      },
+      {
+        "id": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY4u6mFK9H8Fqv8wnNPK97Rl57q9HVcGCMgg&s",
+        "name": "Doramon 4pcs",
+        "actualPrice": 2500.00,
+        "amount": 250.00
+      },
+      {
+        "id": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjc-Wv75or4XA4XQ5tAbVVTCyOKLJ-6dz2aQ&s",
+        "name": "Baby Monster 5pcs",
+        "actualPrice": 3000.00,
+        "amount": 300.00
+      },
+      {
+        "id": 7,
+        "image": "https://5.imimg.com/data5/SELLER/Default/2022/8/XG/KH/WV/58829788/56-musical-shorts-500x500.png",
+        "name": "Music Band 1pcs",
+        "actualPrice": 2600.00,
+        "amount": 260.00
+      },
+      {
+        "id": 8,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFnSLBN-hY1y1ViQh1XjCZClbfTXzTljwozg&s",
+        "name": "Tank 1pcs",
+        "actualPrice": 8000.00,
+        "amount": 800.00
+      }
+    ]
+  },
+  {
+    "category": "Paper Burst & confetti (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTV-sXHNuSBX4pG6M4zcAivzsxYrEWNS9gEw&s",
+        "name": "MINI MAGIC SHOW 1pcs",
+        "actualPrice": 250.00,
+        "amount": 25.00
+      },
+      {
+        "id": 2,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgWczzcegd9R1dtySOpIG8O8AhEthmW3qSFA&s",
+        "name": "Paper Bomb (colour) 1pcs",
+        "actualPrice": 600.00,
+        "amount": 60.00
+      },
+      {
+        "id": 3,
+        "image": "https://5.imimg.com/data5/ANDROID/Default/2024/3/401531085/KR/LJ/GW/181621670/product-jpeg.jpeg",
+        "name": "Paper Bomb 1/4 kg 1pcs",
+        "actualPrice": 693,
+        "amount": 69.30
+      },
+      {
+        "id": 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAynxMgF_cleJyOrvc21s-UoyRLEKi-TeIVA&s",
+        "name": "Paper Bomb 1/2 kg 1pcs",
+        "actualPrice": 550.00,
+        "amount": 55.00
+      },
+      {
+        "id": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3AuSAdR7Vkx4NahIzdO0qxzSXikr8txP47g&s",
+        "name": "Paper Bomb 1 Kg 1pcs",
+        "actualPrice": 1000.00,
+        "amount": 100.00
+      },
+      {
+        "id": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjMJ3vqHzzPTdey8zqNBZOQAThxJdWl7OGkQ&s",
+        "name": "Paper Bomb 5pcs",
+        "actualPrice": 2000.00,
+        "amount": 200.00
+      },
+      {
+        "id": 7,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGklLAKPQmJ7xi_h63wZPGqgQcr7XxjJ6ACA&s",
+        "name": "Magic Show(currency) 2pcs",
+        "actualPrice": 2200.00,
+        "amount": 220.00
+      },
+      {
+        "id": 8,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQUMc4oTfoPT19Iw08hPPx-nyslHa5jRTD0g&s",
+        "name": "Jailor Bomb (5 pcs) 5pcs",
+        "actualPrice": 3600.00,
+        "amount": 360.60
+      }
+    ]
+  },
+  {
+    "category": "Peacock Fountains (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://bijili.s3.ap-south-1.amazonaws.com/product/bij_101.jpg",
+        "name": "Small Peacock 1pcs",
+        "actualPrice": 1000.00,
+        "amount": 100.00
+      },
+      {
+        "id": 2,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-2rk0SLWJi3qITfUgryxO2ZzgcRn_OxbC4w&s",
+        "name": "Big Peacock 1pcs",
+        "actualPrice": 1700.00,
+        "amount": 170.00
+      },
+      {
+        "id": 3,
+        "image": "https://5.imimg.com/data5/SELLER/Default/2022/8/GK/FM/RD/51981593/multicolor-big-shot-colorfull-crackers.jpg",
+        "name": "Bada Peacock 1pcs",
+        "actualPrice": 3800.00,
+        "amount": 380.00
+      }
+    ]
+  },
+  {
+    "category": "Tin Fountains (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://buychennaicrackers.com/wp-content/uploads/2024/07/Photoroom-20240830_150320.jpg",
+        "name": "Tin Fountains 1pcs",
+        "actualPrice": 800.00,
+        "amount": 80.00
+      },
+      {
+        "id": 2,
+        "image": "https://5.imimg.com/data5/SELLER/Default/2024/4/407665231/GC/QP/HP/98321734/1-golden-star-sky-shot-crackers-3-pcs.jpeg",
+        "name": "Water Queen 1pcs",
+        "actualPrice": 1500.00,
+        "amount": 150.00
+      }
+    ]
+  },
+  {
+    "category": "Fancy Aerials / Sky Shots Pipe (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image": "https://5.imimg.com/data5/SELLER/Default/2022/8/KS/GK/GM/58829788/chotta-fancy.jpg",
+        "name": "Chotta Fancy 1pcs /Box",
+        "actualPrice": 450.00,
+        "amount": 45.00
+      },
+      {
+        "id": 2,
+        "image": "https://tamilnaducrackers.com/wp-content/uploads/2022/08/4-13.jpg",
+        "name": "2 1/2\" Fancy Aerials 1pcs /Box",
+        "actualPrice": 950.00,
+        "amount": 95.00
+      },
+      {
+        "id": 3,
+        "image": "https://5.imimg.com/data5/ANDROID/Default/2024/9/448041871/DU/KJ/DD/181621670/product-jpeg-500x500.jpg",
+        "name": "2\" Fancy Aerials (3 Pcs) 3pcs /Box",
+        "actualPrice": 2400.00,
+        "amount":240.00
+      },
+      {
+        "id": 4,
+        "image": "https://tamilnaducrackers.com/wp-content/uploads/2022/08/2-21.jpg",
+        "name": "3 1/2'' Fancy Aerials 1pcs /Box",
+        "actualPrice": 3000.00,
+        "amount": 300.00
+      },
+      {
+        "id": 5,
+        "image": "https://www.nidishcrackers.com/wp-content/uploads/2024/08/1000169363.jpg",
+        "name": "4 Fancy Aerials 1pcs /Box",
+        "actualPrice": 4800.00,
+        "amount": 480.00
+      },
+      {
+        "id": 6,
+        "image": "https://bijili.s3.ap-south-1.amazonaws.com/product/bij_250a-1722341666.jpg",
+        "name": "5'' Fancy Aerials 1pcs /Box",
+        "actualPrice": 7000.00,
+        "amount": 700.00
+      }
+    ]
+  },
+  {
+    "category": "New Fancy Arrivals (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image":"https://holidaycrackers.in/wp-content/uploads/2024/08/2-1_2%E2%80%B3-Fancy-Double-Ball.jpg",
+        "name": "2\" Tusker Double ball 1pcs /Box",
+        "actualPrice": 1800.00,
+        "amount": 180.00
+      },
+      {
+        "id": 2,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScrTBfAbYmTi4FVMbNraP56oE0eJnolNgZlQ&s",
+        "name": "3 1/2\" Double Ball 1pcs /Box",
+        "actualPrice": 4500.00,
+        "amount": 450.00
+      },
+      {
+        "id": 3,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZV8nV0NZTJso86JioNcLXbCe5fFDL0sCv-g&s",
+        "name": "3 1/2\" 7 step Ball 1pcs /Box",
+        "actualPrice": 5500.00,
+        "amount": 550.00
+      }
+    ]
+  },
+  {
+    "category": "Normal Shots (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image":"https://bijili.s3.ap-south-1.amazonaws.com/product/quick-order/bij_142q.jpg",
+        "name": "12 Shots 1pcs /Box",
+        "actualPrice": 1100.00,
+        "amount": 110.60
+      },
+      {
+        "id": 2,
+        "image":"https://5.imimg.com/data5/SELLER/Default/2022/12/LY/YV/CO/88716796/6e9b4a00-da16-4f6a-85a4-435c104d5a90-500x500.jpeg",
+        "name": "25 Shots 1pcs /Box",
+        "actualPrice": 2220.00,
+        "amount": 222.00
+      }
+    ]
+  },
+  {
+    "category": "Mega Box (multi Colour Shots) (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image":"https://supremefireworks.in/img/products/megarepeaters/12.jpg",
+        "name": "15 Shots 1pcs /Box",
+        "actualPrice": 2222.00,
+        "amount": 222.20
+      },
+      {
+        "id": 2,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlE5afOwxDQBqJa9VceYrD_b6PIJbk2u_6wA&s",
+        "name": "30 Shots 1pcs /Box",
+        "actualPrice": 3500.00,
+        "amount": 350.00
+      },
+      {
+        "id": 3,
+        "image":"https://www.fireworks2home.com/wp-content/uploads/2023/10/magic-60-shots-by-kvta.jpg",
+        "name": "60 Shots 1pcs /Box",
+        "actualPrice": 7000.00,
+        "amount": 700.00
+      },
+      {
+        "id": 4,
+        "image":"https://5.imimg.com/data5/SELLER/Default/2023/12/367044112/GY/MZ/ZG/34484039/120-shots-crackers-multicolor.jpeg",
+        "name": "120 Shots 1pcs /Box",
+        "actualPrice": 14000.00,
+        "amount": 1400.00
+      },
+      {
+        "id": 5,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlONVvfvZoWN2nZ29Eya9xz28xIGLKS4zQTg&s",
+        "name": "240 Shots 1pcs /Box",
+        "actualPrice": 28000.00,
+        "amount": 2800.00
+      }
+    ]
+  },
+  {
+    "category": "Celebration MultiDisplay Shots (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image":"https://5.imimg.com/data5/SELLER/Default/2023/12/371638896/DX/CE/IF/34484039/10x10-shots-celebration-night-multi-sky-shots.png",
+        "name": "10 x 10 IPL Winner Shots 1pcs /Box",
+        "actualPrice": 31997.00,
+        "amount": 3200.00
+      },
+      {
+        "id": 2,
+        "name": "10 x 10 Dhoni Shots 1pcs /Box",
+        "image":"https://5.imimg.com/data5/SELLER/Default/2025/8/539783398/DU/RK/FC/98321734/celebration-night-10-x-10-shot-500x500.jpeg",
+        "actualPrice": 35000.00,
+        "amount": 3500.00
+      },
+      {
+        "id": 3,
+        "image":"https://fantasycrackers.com/wp-content/uploads/2024/08/Crackling-Stars-Deluxe-Crackling-20-Shots-Supreme.jpg",
+        "name": "20 Setout - 2\" Shell 1pcs /Box",
+        "actualPrice": 28000.00,
+        "amount": 2800.00
+      }
+    ]
+  },
+  {
+    "category": "Sparklers (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image":"https://5.imimg.com/data5/SELLER/Default/2021/8/CR/GR/FX/98321734/137.jpg",
+        "name": "7 Cm Electric Sparklers 10pcs /Box",
+        "actualPrice": 80.00,
+        "amount": 8.00
+      },
+      {
+        "id": 2,
+        "image":"https://crackers-earth.in/cdn/shop/products/7cm_crack.png?v=1664118719",
+        "name": "7 Cm Crackling Sparklers 10pcs /Box",
+        "actualPrice": 90.00,
+        "amount": 9.00
+      },
+      {
+        "id": 3,
+        "image":"https://bijili.s3.ap-south-1.amazonaws.com/product/quick-order/bij_003q.jpg",
+        "name": "7 Cm Green Sparklers 10pcs /Box",
+        "actualPrice": 90.00,
+        "amount": 9.00
+      },
+      {
+        "id": 4,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA7Eui3X2TuQp8bglX9_42zC5ALDERzKEC6w&s",
+        "name": "7 Cm Red Sparklers 10pcs /Box",
+        "actualPrice": 100.00,
+        "amount": 10.00
+      },
+      {
+        "id": 5,
+        "image":"https://bijili.s3.ap-south-1.amazonaws.com/product/bij_005.jpg",
+        "name": "10 Cm Electric Sparklers 10pcs /Box",
+        "actualPrice": 150.00,
+        "amount": 15.00
+      },
+      {
+        "id": 6,
+        "image":"https://supremefireworks.in/img/products/hifisparklers/10cmsparklers/crackling.jpg",
+        "name": "10 Cm Crackling Sparklers 10pcs /Box",
+        "actualPrice": 160.00,
+        "amount": 16.00
+      },
+      {
+        "id": 7,
+        "image":"https://kuruvicrackers.com/Admin/img/58.jpg",
+        "name": "10 Cm Green Sparklers 10pcs /Box",
+        "actualPrice": 180.00,
+        "amount": 18.00
+      },
+      {
+        "id": 8,
+        "image":"https://5.imimg.com/data5/SELLER/Default/2022/8/TW/KY/YX/58829788/10cm-red-10pcs-box--500x500.jpg",
+        "name": "10 Cm Red Sparklers 10pcs /Box",
+        "actualPrice": 230.00,
+        "amount": 23.00
+      },
+      {
+        "id": 9,
+        "image":"https://5.imimg.com/data5/SELLER/Default/2025/1/480148784/UL/ST/RS/9413963/10cm-signal-pink-sparklers-250x250.jpeg",
+        "name": "10 Cm Pink Sparklers 10pcs /Box",
+        "actualPrice": 280.00,
+        "amount": 28.00
+      },
+      {
+        "id": 10,
+        "image":"https://fastbeescrackers.com/wp-content/uploads/2025/07/15-CM-VIOLET-scaled.jpg",
+        "name": "10 Cm Violet Sparklers 10pcs /Box",
+        "actualPrice": 300.00,
+        "amount": 30.00
+      },
+      {
+        "id": 11,
+        "name": "15 Cm Electric Sparklers 10pcs /Box",
+        "actualPrice": 400.00,
+        "amount": 40.00
+      },
+      {
+        "id": 12,
+        "name": "15 Cm Crackling Sparklers 10pcs /Box",
+        "actualPrice": 420.00,
+        "amount": 42.00
+      },
+      {
+        "id": 13,
+        "name": "15 Cm Green Sparklers 10pcs /Box",
+        "actualPrice": 440.00,
+        "amount": 44.00
+      },
+      {
+        "id": 14,
+        "name": "15 Cm Red Sparklers 10pcs /Box",
+        "actualPrice": 470.00,
+        "amount": 47.00
+      },
+      {
+        "id": 15,
+        "name": "15 Cm Pink Sparklers 10pcs /Box",
+        "actualPrice": 500.00,
+        "amount": 50.00
+      },
+      {
+        "id": 16,
+        "name": "15 Cm Violet Sparklers 10pcs /Box",
+        "actualPrice": 520.00,
+        "amount": 52.00
+      },
+      {
+        "id": 17,
+        "name": "30 Cm Electric Sparklers 5pcs /Box",
+        "actualPrice": 400.00,
+        "amount": 40.00
+      },
+      {
+        "id": 18,
+        "name": "30 Cm Crackling Sparklers 5pcs /Box",
+        "actualPrice": 420.00,
+        "amount": 42.00
+      },
+      {
+        "id": 19,
+        "name": "30 Cm Green Sparklers 5pcs /Box",
+        "actualPrice": 440.00,
+        "amount": 44.00
+      },
+      {
+        "id": 20,
+        "name": "30 Cm Red Sparklers 5pcs /Box",
+        "actualPrice": 470.00,
+        "amount": 47.00
+      },
+      {
+        "id": 21,
+        "name": "30 Cm Super Mix Sparklers 5pcs /Box",
+        "actualPrice": 500.00,
+        "amount": 50.00
+      }
+    ]
+  },
+  {
+    "category": "Special Items (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "image":"https://bijili.s3.ap-south-1.amazonaws.com/product/bij_019.jpg",
+        "name": "50 Cm Electric Sparklers 5pcs /Box",
+        "actualPrice": 1550.00,
+        "amount": 155.00
+      },
+      {
+        "id": 2,
+        "image":"https://bijili.s3.ap-south-1.amazonaws.com/product/bij_020.jpg",
+        "name": "50 Cm Crackling Sparklers 5pcs /Box",
+        "actualPrice": 1700.00,
+        "amount": 170.00
+      }
+    ]
+  },
+  {
+    "category": "Colour Matches (90% Disc)",
+    "products": [
+      {
+        "id": 1,
+        "name": "Super Deluxe 10Pkt/Box",
+        "actualPrice": 900.00,
+        "amount": 90.00
+      },
+      {
+        "id": 2,
+        "name": "Lamba 10Pkt/Box",
+        "actualPrice": 1500.00,
+        "amount": 150.00
+      },
+      {
+        "id": 3,
+        "name": "Max 10Pkt/Box",
+        "actualPrice": 2100.00,
+        "amount": 210.60
+      },
+      {
+        "id": 4,
+        "name": "Mega 10Pkt/Box",
+        "actualPrice": 2500.00,
+        "amount": 250.00
+      },
+      {
+        "id": 5,
+        "name": "Mega Laptop 10Pkt/Box",
+        "actualPrice": 3000.00,
+        "amount": 300.00
+      }
+    ]
+  },
+  {
+    "category": "Assorted Fireworks Boxes (90% Discount)",
+    "products": [
+      {
+        "id": 1,
+        "image":"https://5.imimg.com/data5/ANDROID/Default/2020/9/IN/EX/JE/3188893/prod-20200918-1710577758688551794186119-jpg-500x500.jpg",
+        "name": "21 Items Box",
+        "actualPrice": 3150.00,
+        "amount": 315.00
+      },
+      {
+        "id": 2,
+        "image":"https://5.imimg.com/data5/SELLER/Default/2020/10/VR/IM/VW/68772509/standard-crackers-fire-crackers-gift-box-31-items-whosale-in-sivakasi-contace-7010276537.jpg",
+        "name": "31 items Box",
+        "actualPrice": 4200.00,
+        "amount": 420.00
+      },
+      {
+        "id": 3,
+        "image":"https://5.imimg.com/data5/ANDROID/Default/2021/9/ZI/DV/IT/64359918/prod-20210926-0732161242425120962802290-jpg-250x250.jpg",
+        "name": "41 items Box",
+        "actualPrice": 6300.00,
+        "amount": 630.00
+      },
+      {
+        "id": 4,
+        "image":"https://5.imimg.com/data5/SELLER/Default/2024/8/447223509/QD/IM/BN/36275315/50-item-crackers-gift-box.jpeg",
+        "name": "51 items Box",
+        "actualPrice": 8400.00,
+        "amount": 840.0
+      },
+      {
+        "id": 5,
+        "image":"https://5.imimg.com/data5/SELLER/Default/2024/9/448171761/UP/HO/NZ/36275315/untitled-design-2-500x500.jpg",
+        "name": "61 items Box",
+        "actualPrice": 11550.00,
+        "amount": 1155.00
+      }
+    ]
+  }
+]

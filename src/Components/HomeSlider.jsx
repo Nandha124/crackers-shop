@@ -49,7 +49,7 @@ const HeroSlider = () => {
         {slides.map((slide) => (
           <div
             key={slide.id}
-            className="relative h-[400px] sm:h-[500px] md:h-[600px] lg:h-[650px] xl:h-screen"
+            className="relative h-[400px] lg:h-[500px] md:h-[650px]  xl:h-screen"
           >
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
@@ -73,22 +73,24 @@ const HeroSlider = () => {
 
                 {/* Buttons */}
                 <div className="flex flex-col lg:flex-row items-center justify-center gap-4 md:gap-10">
+                    <div className="w-full sm:w-auto">
+                    <DownloadPriceList />
+                  </div>
                   <button
-                    className="px-6 py-2 sm:px-8 sm:py-3 
-                    font-oswald font-bold uppercase 
-                    text-white text-sm sm:text-[16px]
-                    border-2 border-red-600 hover:bg-red-600
-                    bg-transparent 
-                    transition-all duration-300 ease-out
-                    w-full lg:w-64"
+                    className="px-8 py-3 inline-block 
+    font-oswald font-bold uppercase 
+    text-white text-[16px] 
+    border-2 border-red-600 hover:bg-red-600
+    
+    bg-transparent 
+    transition-all duration-300 ease-out 
+  "
                     onClick={() => navigate("/pages/crackerstable")}
                   >
                     {slide.button}
                   </button>
 
-                  <div className="w-full sm:w-auto">
-                    <DownloadPriceList />
-                  </div>
+                
                 </div>
               </div>
             </div>

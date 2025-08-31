@@ -7,28 +7,28 @@ import Img4 from "../assets/ground.png"
 const products = [
   {
     price: "₹85.00",
-    image: Img1,
+    image: Img2,
     title: "Flower pots",
     description: "Get online crackers in sivakasi from GVD Crackers",
     link: "CrackersTable",
   },
   {
     price: "₹28.00",
-    image: Img2,
+    image: Img3,
     title: "Twinkling stars",
     description: "Get quality online crackers sivakasi from GVD Crackers",
     link: "CrackersTable",
   },
   {
     price: "₹46.00",
-    image: Img3,
+    image: Img4,
     title: "Ground chakkars",
     description: "Make online crackers purchase from GVD Crackers",
     link: "CrackersTable",
   },
   {
     price: "₹98.00",
-    image: Img4,
+    image: Img1,
     title: "Atombombs",
     description: "Make online crackers purchase sivakasi GVD Crackers",
     link: "CrackersTable",

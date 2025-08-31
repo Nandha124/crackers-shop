@@ -62,7 +62,7 @@ const Header = () => {
         {/* Social Icons */}
         <div className="hidden md:flex gap-x-3">
           <a
-            href="https://www.facebook.com/share/15xZVvgLMs/"
+            href="https://www.facebook.com/profile.php?id=61579954325257"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
@@ -70,7 +70,7 @@ const Header = () => {
             <FaMeta size={24} />
           </a>
           <a
-            href="https://www.instagram.com/nandhu_s_06?igsh=MWlrdzNqcGN1eGt3NQ=="
+            href="https://www.instagram.com/gvd_crackers?utm_source=qr&igsh=YXRhczdoc2psYTU="
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"

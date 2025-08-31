@@ -107,7 +107,7 @@ export default function CrackersTable() {
             <tr>
               <th className="p-2 lg:p-3 border w-20 lg:w-28">Image</th>
               <th className="p-2 lg:p-3 border">Product Name</th>
-              <th className="p-2 lg:p-3 border w-24 lg:w-32 hidden lg:table-cell">Actual Price</th>
+              <th className="p-2 lg:p-3 border w-24 lg:w-32">Actual Price</th>
               <th className="p-2 lg:p-3 border w-24 lg:w-32">Our Price</th>
               <th className="p-2 lg:p-3 border w-20 lg:w-28">Qty</th>
               <th className="p-2 lg:p-3 border w-24 lg:w-32">Total</th>
@@ -117,7 +117,7 @@ export default function CrackersTable() {
           <tbody>
             {Object.entries(itemsByCategory).map(([category, categoryItems]) => (
               <React.Fragment key={category}>
-                {/* Category header - always visible on desktop, conditionally on mobile */}
+                {/* Category header */}
                 <tr className={activeCategory && activeCategory !== category ? "hidden" : ""}>
                   <td
                     colSpan="6"
@@ -143,20 +143,30 @@ export default function CrackersTable() {
                       />
                     </td>
                     
-                    {/* Product Name - with better mobile styling */}
+                    {/* Product Name */}
                     <td className="p-2 lg:p-3 border text-left font-medium text-gray-800">
-                      <div className="block lg:table-cell">
-                        {item.name}
-                      </div>
+                      {item.name}
                     </td>
                     
-                    {/* Actual Price */}
+                    {/* Prices (mobile stacked, desktop split) */}
+                    <td className="p-2 lg:p-3 border font-semibold text-green-700 lg:hidden">
+                      <div className="flex flex-col items-center">
+                        <span className="text-green-700 font-semibold">
+                          ₹{Number(item.amount).toFixed(2)}
+                        </span>
+                        <span className="text-red-500 line-through text-sm">
+                          ₹{Number(item.actualPrice || 0).toFixed(2)}
+                        </span>
+                      </div>
+                    </td>
+
+                    {/* Desktop Actual Price */}
                     <td className="p-2 lg:p-3 border line-through text-red-500 hidden lg:table-cell">
                       ₹{Number(item.actualPrice || 0).toFixed(2)}
                     </td>
-                    
-                    {/* Our Price */}
-                    <td className="p-2 lg:p-3 border font-semibold text-green-700">
+
+                    {/* Desktop Our Price */}
+                    <td className="p-2 lg:p-3 border font-semibold text-green-700 hidden lg:table-cell">
                       ₹{Number(item.amount).toFixed(2)}
                     </td>
                     
@@ -183,7 +193,7 @@ export default function CrackersTable() {
         </table>
       </div>
 
-      {/* Mobile product cards for better mobile experience */}
+      {/* Mobile product cards */}
       <div className="lg:hidden mt-4">
         {Object.entries(itemsByCategory).map(([category, categoryItems]) => (
           <div 
@@ -210,11 +220,11 @@ export default function CrackersTable() {
                       />
                       <div>
                         <h4 className="font-medium text-gray-800">{item.name}</h4>
-                        <div className="flex items-center mt-1">
-                          <span className="text-green-700 font-semibold mr-2">
+                        <div className="flex flex-col mt-1">
+                          <span className="text-green-700 font-semibold">
                             ₹{Number(item.amount).toFixed(2)}
                           </span>
-                          <span className="text-red-500 line-through text-sm">
+                          <span className="text-red-500 line-through text-sm font-medium">
                             ₹{Number(item.actualPrice || 0).toFixed(2)}
                           </span>
                         </div>

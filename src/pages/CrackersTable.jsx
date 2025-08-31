@@ -261,7 +261,7 @@ export default function CrackersTable() {
         <button
           onClick={handleOrderNow}
           className="bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-3 rounded-full shadow-lg transition w-full 
-          lg:w-auto text-center md:text-2xl text-lg"
+          lg:w-auto text-center md:text-xl text-lg"
         >
           📦 Order Now via WhatsApp
         </button>

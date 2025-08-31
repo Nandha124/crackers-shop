@@ -4,5 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/",   // ✅ Must start with slash
+  base: "/",
+    outDir: 'build',   // ✅ Must start with slash
 });

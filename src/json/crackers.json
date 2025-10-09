@@ -96,14 +96,14 @@
         "image": "http://notoutcrackers.com/ProductImages/def.jpg",
         "name": "Pada Dlx Machine Gun bijili 50",
         "actualPrice": 1111.00,
-        "amount": 111.00
+        "amount": 112.00
       },
       {
         "id": 6,
         "image": "http://notoutcrackers.com/ProductImages/def.jpg",
         "name": "Pada Dlx Machine Gun bijili 100",
         "actualPrice": 222.00,
-        "amount": 222.00
+        "amount": 223.00
       }
     ]
   },
@@ -189,15 +189,15 @@
         "id": 6,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyncShQ-JvI1av19J_7qt2beeRnAF2qDR5zA&s",
         "name": "Agni Bomb 10pcs",
-        "actualPrice": 1600.00,
-        "amount": 160.00
+        "actualPrice": 2000.00,
+        "amount": 200.00
       },
       {
         "id": 7,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeE9uS14Gzi-XG2QCpfmiwm_0jzQmrr40hKA&s",
         "name": "Digital Bomb 10pcs",
-        "actualPrice": 2000.00,
-        "amount": 200.00
+        "actualPrice": 2500.00,
+        "amount": 250.00
       }
     ]
   },
@@ -335,7 +335,7 @@
       },
       {
         "id": 3,
-        "image": "http://notoutcrackers.com/ProductImages/def.jpg",
+        "image": "https://www.srivenkatpyrotech.com/images/upload/product_image_29_08_2025_06_53_02.webp",
         "name": "Ground Chakkar Special 10pcs",
         "actualPrice": 650.00,
         "amount": 65.00
@@ -359,7 +359,7 @@
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThk2nCBknKdrTZtkBcY44zXENj5Z6DRBp1_Q&s",
         "name": "Spinner Dlx 10pcs",
         "actualPrice": 2220.00,
-        "amount": 222.00
+        "amount": 220.00
       }
     ]
   },
@@ -370,8 +370,8 @@
         "id": 1,
         "image": "https://www.fireworks2home.com/wp-content/uploads/2020/10/whistling-wheel-ayyan.jpg",
         "name": "Wizzling Wheel 5pcs",
-        "actualPrice": 800.00,
-        "amount": 80.00
+        "actualPrice": 1600.00,
+        "amount": 160.00
       }
     ]
   },
@@ -399,21 +399,21 @@
     "products": [
       {
         "id": 1,
-        "image": "http://notoutcrackers.com/ProductImages/abc.jpg",
+        "image": "https://www.srivenkatpyrotech.com/images/upload/product_image_28_08_2025_11_47_29.webp",
         "name": "Hi-tech Candle 3pcs",
         "actualPrice": 750.00,
         "amount": 75.00
       },
       {
         "id": 2,
-        "image": "http://notoutcrackers.com/ProductImages/abc.jpg",
+        "image": "https://www.srivenkatpyrotech.com/images/upload/product_image_28_08_2025_11_47_45.webp",
         "name": "Beacon Candles 2pcs",
         "actualPrice": 1600.00,
         "amount": 160.00
       },
       {
         "id": 3,
-        "image": "http://notoutcrackers.com/ProductImages/abc.jpg",
+        "image": "https://www.srivenkatpyrotech.com/images/upload/product_image_29_08_2025_06_55_27.webp",
         "name": "Mega Candles 3pcs",
         "actualPrice": 2000.00,
         "amount": 200.00
@@ -500,8 +500,8 @@
         "id": 2,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLHWqn-H7KpVZC5DNQDIRYeFG00CGiaCXAaA&s",
         "name": "Lunic Rocket 10pcs",
-        "actualPrice": 1000.00,
-        "amount": 100.00
+        "actualPrice": 1200.00,
+        "amount": 120.00
       },
       {
         "id": 3,
@@ -730,22 +730,22 @@
         "id": 3,
         "image": "https://5.imimg.com/data5/ANDROID/Default/2024/3/401531085/KR/LJ/GW/181621670/product-jpeg.jpeg",
         "name": "Paper Bomb 1/4 kg 1pcs",
-        "actualPrice": 693,
-        "amount": 69.30
+        "actualPrice": 550,
+        "amount": 55.00
       },
       {
         "id": 4,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAynxMgF_cleJyOrvc21s-UoyRLEKi-TeIVA&s",
         "name": "Paper Bomb 1/2 kg 1pcs",
-        "actualPrice": 550.00,
-        "amount": 55.00
+        "actualPrice": 1000.00,
+        "amount": 100.00
       },
       {
         "id": 5,
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3AuSAdR7Vkx4NahIzdO0qxzSXikr8txP47g&s",
         "name": "Paper Bomb 1 Kg 1pcs",
-        "actualPrice": 1000.00,
-        "amount": 100.00
+        "actualPrice": 2000.00,
+        "amount": 200.00
       },
       {
         "id": 6,
@@ -822,8 +822,8 @@
         "id": 1,
         "image": "https://5.imimg.com/data5/SELLER/Default/2022/8/KS/GK/GM/58829788/chotta-fancy.jpg",
         "name": "Chotta Fancy 1pcs /Box",
-        "actualPrice": 450.00,
-        "amount": 45.00
+        "actualPrice": 400.00,
+        "amount": 40.00
       },
       {
         "id": 2,
@@ -1048,12 +1048,14 @@
       },
       {
         "id": 11,
+        "image":"https://www.srivenkatpyrotech.com/images/upload/product_image_28_08_2025_12_07_00.webp",
         "name": "15 Cm Electric Sparklers 10pcs /Box",
         "actualPrice": 400.00,
         "amount": 40.00
       },
       {
         "id": 12,
+        "image":"https://www.srivenkatpyrotech.com/images/upload/product_image_28_08_2025_12_07_15.webp",
         "name": "15 Cm Crackling Sparklers 10pcs /Box",
         "actualPrice": 420.00,
         "amount": 42.00
@@ -1138,30 +1140,35 @@
     "products": [
       {
         "id": 1,
+        "image":"https://www.srivenkatpyrotech.com/images/upload/product_image_29_08_2025_02_25_05.webp",
         "name": "Super Deluxe 10Pkt/Box",
         "actualPrice": 900.00,
         "amount": 90.00
       },
       {
         "id": 2,
+        "image":"https://www.srivenkatpyrotech.com/images/upload/product_image_29_08_2025_02_24_34.webp",
         "name": "Lamba 10Pkt/Box",
         "actualPrice": 1500.00,
         "amount": 150.00
       },
       {
         "id": 3,
+        "image":"https://www.srivenkatpyrotech.com/images/upload/product_image_29_08_2025_02_25_22.webp",
         "name": "Max 10Pkt/Box",
         "actualPrice": 2100.00,
         "amount": 210.60
       },
       {
         "id": 4,
+        "image":"https://www.srivenkatpyrotech.com/images/upload/product_image_29_08_2025_02_27_47.webp",
         "name": "Mega 10Pkt/Box",
         "actualPrice": 2500.00,
         "amount": 250.00
       },
       {
         "id": 5,
+        "image":"https://www.srivenkatpyrotech.com/images/upload/product_image_29_08_2025_02_28_23.webp",
         "name": "Mega Laptop 10Pkt/Box",
         "actualPrice": 3000.00,
         "amount": 300.00

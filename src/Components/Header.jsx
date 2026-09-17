@@ -21,15 +21,15 @@ const Header = () => {
   // Active link highlighting
   const activeItemId = navItems.find((item) =>
     location.pathname.startsWith(item.link)
-  )?.id;
 
+  )?.id;
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   const handleLogoClick = () => {
     navigate("/pages/home");
-    setIsOpen(false); // Close mobile menu if open
+    setIsOpen(false);
   };
 
   return (
